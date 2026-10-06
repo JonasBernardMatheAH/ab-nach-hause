@@ -35,7 +35,7 @@ Context for AI agents working on this repo. Verbatim source: `course/prompts/bac
 
 ## Repo layout & workflow
 - Each student works in **their own fork, in a GitHub Codespace** (`.devcontainer/`: Python 3.11, requirements preinstalled, port 8080 forwarded, 16 GB RAM).
-- `course/` – **internal, not for students directly** (presentations, exercises, course plan, agent background, prompts). Transparent: students can see it.
+- `course/` – **internal, not for students directly** (presentations, exercises, course plan, agent background, prompts). Transparent: students can see it. Leader's raw notes: `course/notizen.md`.
 - `lektionen/lektionN/` – student material per session (German), e.g. `lektion1/QUICKSTART.MD`.
 - `src/` – routing web app (FastAPI + Leaflet frontend in `static/`):
   - `config.py` reads `osm_data/city_config.json` (PBF file, viewport, default start/target).
